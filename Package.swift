@@ -9,7 +9,7 @@ let package = Package(
             targets: ["DangerWarningsCount"])
     ],
     dependencies: [
-        .package(url: "https://github.com/danger/danger-swift.git", from: "1.0.0")
+        .package(url: "https://github.com/danger/swift.git", from: "1.0.0")
     ],
     targets: [
         .target(
